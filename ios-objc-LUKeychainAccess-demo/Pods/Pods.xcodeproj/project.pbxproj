@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002CF431663DF892C44828B6A9E24C0E /* LUKeychainAccessAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 48238B522EC60B2CE88D81227BE3D602 /* LUKeychainAccessAccessibility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BBFE8B36C79BEBC67B5290FDA9DBC86 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D8950977CEFFFB22EA5CB93124C0B3 /* Security.framework */; };
+		12A0BD707FFE721FDE5097480EB1FD5E /* LUKeychainServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 50552D4C5F3B82851E22175CF44C4D31 /* LUKeychainServices.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4171C5B6B032F2ABF95F74E9287F4B99 /* Pods-ios-objc-LUKeychainAccess-demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DF64C1486A5300B3C50A72B366677 /* Pods-ios-objc-LUKeychainAccess-demoUITests-dummy.m */; };
+		42A1B6FDA9AB4DA9FF4085856FD65C9E /* LUKeychainErrorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 700061705658A6EC178A5E3220776ECF /* LUKeychainErrorHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4ABC33FDA491FCC1A8B978FC49D9CDA9 /* LUKeychainAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B59A343599F22B64652F4D5F0630C0 /* LUKeychainAccess.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5EF4CC102C8C19A3064452B098D47D3C /* Pods-ios-objc-LUKeychainAccess-demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C7F36ABF5F3BFCB643CE13B22B7100 /* Pods-ios-objc-LUKeychainAccess-demoTests-dummy.m */; };
+		88455D7BB46807391238D1883FC1CB20 /* LUKeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 665961808AED30B33A94D5FD1DBD9833 /* LUKeychainAccess-dummy.m */; };
+		BA1316A9297E9D7415A24596C8B1F6F7 /* LUKeychainServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BF997AA45548CB55CEF850BE4971E5 /* LUKeychainServices.m */; };
+		C5887A35306307A7E26D45C10CAFE7A5 /* LUKeychainAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E9CD8CDED76E6FC776D9B76A67A59E /* LUKeychainAccess.m */; };
+		CE775F508E7C80BAB335E2A988E07B44 /* Pods-ios-objc-LUKeychainAccess-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 532FE0ED4F717465ADEAC019B4099DEC /* Pods-ios-objc-LUKeychainAccess-demo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		493C42773E9AC0E9E35B14ECFC3546BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4655F8AAF865BDFEE50BB8B05AD5A6C;
+			remoteInfo = "Pods-ios-objc-LUKeychainAccess-demo";
+		};
+		9344DDAC64518C90D0EEFD64BA54EA0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4655F8AAF865BDFEE50BB8B05AD5A6C;
+			remoteInfo = "Pods-ios-objc-LUKeychainAccess-demo";
+		};
+		C8CC8BF52D77AB4A72A53C16E78764D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCED52D2277D31DA32364EF8513B831C;
+			remoteInfo = LUKeychainAccess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E9CD8CDED76E6FC776D9B76A67A59E /* LUKeychainAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LUKeychainAccess.m; path = LUKeychainAccess/LUKeychainAccess.m; sourceTree = "<group>"; };
+		06C7F36ABF5F3BFCB643CE13B22B7100 /* Pods-ios-objc-LUKeychainAccess-demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-objc-LUKeychainAccess-demoTests-dummy.m"; sourceTree = "<group>"; };
+		09828F6A6FF56A07D6A311C2AC940076 /* Pods-ios-objc-LUKeychainAccess-demoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-objc-LUKeychainAccess-demoUITests-resources.sh"; sourceTree = "<group>"; };
+		119C77459CED5090250AA65D59042000 /* Pods-ios-objc-LUKeychainAccess-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-objc-LUKeychainAccess-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		13F3DAABB3F85336E3706F888ECB00E2 /* Pods-ios-objc-LUKeychainAccess-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-objc-LUKeychainAccess-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		196B8EB73954F2DFFC30C0FB53D72FFE /* Pods-ios-objc-LUKeychainAccess-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-objc-LUKeychainAccess-demo.release.xcconfig"; sourceTree = "<group>"; };
+		21B6DDAC89D345B62BE3908E440A01C2 /* Pods-ios-objc-LUKeychainAccess-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-objc-LUKeychainAccess-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		30F4CF18E7739CAF3765F3267C51C5ED /* libPods-ios-objc-LUKeychainAccess-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ios-objc-LUKeychainAccess-demoUITests.a"; path = "libPods-ios-objc-LUKeychainAccess-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349FBC87316EAABED01381BF48C52CEA /* Pods-ios-objc-LUKeychainAccess-demoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-objc-LUKeychainAccess-demoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C775CB95DFFF1FCBB7D06DF6E6A1A1A /* Pods-ios-objc-LUKeychainAccess-demoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-objc-LUKeychainAccess-demoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		40CEDAF6555058F115F342019372629D /* Pods-ios-objc-LUKeychainAccess-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-objc-LUKeychainAccess-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43773B8BA49130AC329D5B003A157F55 /* libLUKeychainAccess.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLUKeychainAccess.a; path = libLUKeychainAccess.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48238B522EC60B2CE88D81227BE3D602 /* LUKeychainAccessAccessibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LUKeychainAccessAccessibility.h; path = LUKeychainAccess/LUKeychainAccessAccessibility.h; sourceTree = "<group>"; };
+		4C2D0F5FB16739C612D55EB99771AD14 /* Pods-ios-objc-LUKeychainAccess-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-objc-LUKeychainAccess-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		50552D4C5F3B82851E22175CF44C4D31 /* LUKeychainServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LUKeychainServices.h; path = LUKeychainAccess/LUKeychainServices.h; sourceTree = "<group>"; };
+		50BF997AA45548CB55CEF850BE4971E5 /* LUKeychainServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LUKeychainServices.m; path = LUKeychainAccess/LUKeychainServices.m; sourceTree = "<group>"; };
+		532FE0ED4F717465ADEAC019B4099DEC /* Pods-ios-objc-LUKeychainAccess-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-objc-LUKeychainAccess-demo-dummy.m"; sourceTree = "<group>"; };
+		64B3828316342DBAE68D0CBCF9C2BA38 /* libPods-ios-objc-LUKeychainAccess-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ios-objc-LUKeychainAccess-demo.a"; path = "libPods-ios-objc-LUKeychainAccess-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665961808AED30B33A94D5FD1DBD9833 /* LUKeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LUKeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		700061705658A6EC178A5E3220776ECF /* LUKeychainErrorHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LUKeychainErrorHandler.h; path = LUKeychainAccess/LUKeychainErrorHandler.h; sourceTree = "<group>"; };
+		73D8950977CEFFFB22EA5CB93124C0B3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8A309995521C2DA488B1CB888BC6F6D1 /* Pods-ios-objc-LUKeychainAccess-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-objc-LUKeychainAccess-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DB90D365219A226EF305285896C0D57 /* Pods-ios-objc-LUKeychainAccess-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-objc-LUKeychainAccess-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950683F0B9990B1E8F1D873571EC6728 /* Pods-ios-objc-LUKeychainAccess-demoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-objc-LUKeychainAccess-demoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9D48268F722533846F396845EE6DA473 /* libPods-ios-objc-LUKeychainAccess-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ios-objc-LUKeychainAccess-demoTests.a"; path = "libPods-ios-objc-LUKeychainAccess-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B59A343599F22B64652F4D5F0630C0 /* LUKeychainAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LUKeychainAccess.h; path = LUKeychainAccess/LUKeychainAccess.h; sourceTree = "<group>"; };
+		A94DF64C1486A5300B3C50A72B366677 /* Pods-ios-objc-LUKeychainAccess-demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-objc-LUKeychainAccess-demoUITests-dummy.m"; sourceTree = "<group>"; };
+		B278C8243AD1CE7CDC48E2B7BAFFA109 /* Pods-ios-objc-LUKeychainAccess-demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-objc-LUKeychainAccess-demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB3CFE8A6C70BAC3E07D0E9CC874A439 /* LUKeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LUKeychainAccess-prefix.pch"; sourceTree = "<group>"; };
+		C28DCBD4924DBC2FB56EE9425E70490F /* Pods-ios-objc-LUKeychainAccess-demoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-objc-LUKeychainAccess-demoTests-resources.sh"; sourceTree = "<group>"; };
+		DC2B418D40E8802EE9F0BAA06EDD8900 /* Pods-ios-objc-LUKeychainAccess-demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-objc-LUKeychainAccess-demo-resources.sh"; sourceTree = "<group>"; };
+		E655C291EC8809C7410D08AF8508FBD3 /* Pods-ios-objc-LUKeychainAccess-demoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-objc-LUKeychainAccess-demoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F039185708F57B293ACDE4BCDBCEDA7C /* LUKeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LUKeychainAccess.xcconfig; sourceTree = "<group>"; };
+		F55FE857F31176F57B60BA1A1ABF2461 /* Pods-ios-objc-LUKeychainAccess-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-objc-LUKeychainAccess-demo-frameworks.sh"; sourceTree = "<group>"; };
+		FA7CE6AB23576C51195E8A20FE70A999 /* Pods-ios-objc-LUKeychainAccess-demoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-objc-LUKeychainAccess-demoTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12AA8A80C9540B13161EEE2ACA9BF57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBFE8B36C79BEBC67B5290FDA9DBC86 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD4CB6CDD5349CD704402399980BC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E71972BCEEDAC1CD7385D28EB43E4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B7A6B444B42D46DE34F0AD6F9DDF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CDC317465437A4B11342DB7C5BB9C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73D8950977CEFFFB22EA5CB93124C0B3 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3128F268B642841987FE8F2F88AE715D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43773B8BA49130AC329D5B003A157F55 /* libLUKeychainAccess.a */,
+				64B3828316342DBAE68D0CBCF9C2BA38 /* libPods-ios-objc-LUKeychainAccess-demo.a */,
+				9D48268F722533846F396845EE6DA473 /* libPods-ios-objc-LUKeychainAccess-demoTests.a */,
+				30F4CF18E7739CAF3765F3267C51C5ED /* libPods-ios-objc-LUKeychainAccess-demoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5055009F288E8BE66A8B456416861ECD /* Pods-ios-objc-LUKeychainAccess-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B278C8243AD1CE7CDC48E2B7BAFFA109 /* Pods-ios-objc-LUKeychainAccess-demoTests-acknowledgements.markdown */,
+				E655C291EC8809C7410D08AF8508FBD3 /* Pods-ios-objc-LUKeychainAccess-demoTests-acknowledgements.plist */,
+				06C7F36ABF5F3BFCB643CE13B22B7100 /* Pods-ios-objc-LUKeychainAccess-demoTests-dummy.m */,
+				FA7CE6AB23576C51195E8A20FE70A999 /* Pods-ios-objc-LUKeychainAccess-demoTests-frameworks.sh */,
+				C28DCBD4924DBC2FB56EE9425E70490F /* Pods-ios-objc-LUKeychainAccess-demoTests-resources.sh */,
+				40CEDAF6555058F115F342019372629D /* Pods-ios-objc-LUKeychainAccess-demoTests.debug.xcconfig */,
+				13F3DAABB3F85336E3706F888ECB00E2 /* Pods-ios-objc-LUKeychainAccess-demoTests.release.xcconfig */,
+			);
+			name = "Pods-ios-objc-LUKeychainAccess-demoTests";
+			path = "Target Support Files/Pods-ios-objc-LUKeychainAccess-demoTests";
+			sourceTree = "<group>";
+		};
+		5DDA9D17F0B5453A5D3C15D1D4314A7D /* Pods-ios-objc-LUKeychainAccess-demo */ = {
+			isa = PBXGroup;
+			children = (
+				8A309995521C2DA488B1CB888BC6F6D1 /* Pods-ios-objc-LUKeychainAccess-demo-acknowledgements.markdown */,
+				21B6DDAC89D345B62BE3908E440A01C2 /* Pods-ios-objc-LUKeychainAccess-demo-acknowledgements.plist */,
+				532FE0ED4F717465ADEAC019B4099DEC /* Pods-ios-objc-LUKeychainAccess-demo-dummy.m */,
+				F55FE857F31176F57B60BA1A1ABF2461 /* Pods-ios-objc-LUKeychainAccess-demo-frameworks.sh */,
+				DC2B418D40E8802EE9F0BAA06EDD8900 /* Pods-ios-objc-LUKeychainAccess-demo-resources.sh */,
+				4C2D0F5FB16739C612D55EB99771AD14 /* Pods-ios-objc-LUKeychainAccess-demo.debug.xcconfig */,
+				196B8EB73954F2DFFC30C0FB53D72FFE /* Pods-ios-objc-LUKeychainAccess-demo.release.xcconfig */,
+			);
+			name = "Pods-ios-objc-LUKeychainAccess-demo";
+			path = "Target Support Files/Pods-ios-objc-LUKeychainAccess-demo";
+			sourceTree = "<group>";
+		};
+		5E22D26C115E0BDD353CE2C3A3E593A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DDA9D17F0B5453A5D3C15D1D4314A7D /* Pods-ios-objc-LUKeychainAccess-demo */,
+				5055009F288E8BE66A8B456416861ECD /* Pods-ios-objc-LUKeychainAccess-demoTests */,
+				BBF1CA284C44FEF6F3C61A81AFFE13A1 /* Pods-ios-objc-LUKeychainAccess-demoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6700F84744EE996850B89A67698555E5 /* LUKeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				A4B59A343599F22B64652F4D5F0630C0 /* LUKeychainAccess.h */,
+				05E9CD8CDED76E6FC776D9B76A67A59E /* LUKeychainAccess.m */,
+				48238B522EC60B2CE88D81227BE3D602 /* LUKeychainAccessAccessibility.h */,
+				700061705658A6EC178A5E3220776ECF /* LUKeychainErrorHandler.h */,
+				50552D4C5F3B82851E22175CF44C4D31 /* LUKeychainServices.h */,
+				50BF997AA45548CB55CEF850BE4971E5 /* LUKeychainServices.m */,
+				8E9D917C6BCB815FCAABCD08AE8C4883 /* Support Files */,
+			);
+			name = LUKeychainAccess;
+			path = LUKeychainAccess;
+			sourceTree = "<group>";
+		};
+		7CA7CBD1841AD9E9095280C2E84AA5EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6700F84744EE996850B89A67698555E5 /* LUKeychainAccess */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7CA7CBD1841AD9E9095280C2E84AA5EC /* Pods */,
+				3128F268B642841987FE8F2F88AE715D /* Products */,
+				5E22D26C115E0BDD353CE2C3A3E593A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9D917C6BCB815FCAABCD08AE8C4883 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F039185708F57B293ACDE4BCDBCEDA7C /* LUKeychainAccess.xcconfig */,
+				665961808AED30B33A94D5FD1DBD9833 /* LUKeychainAccess-dummy.m */,
+				BB3CFE8A6C70BAC3E07D0E9CC874A439 /* LUKeychainAccess-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LUKeychainAccess";
+			sourceTree = "<group>";
+		};
+		BBF1CA284C44FEF6F3C61A81AFFE13A1 /* Pods-ios-objc-LUKeychainAccess-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				349FBC87316EAABED01381BF48C52CEA /* Pods-ios-objc-LUKeychainAccess-demoUITests-acknowledgements.markdown */,
+				3C775CB95DFFF1FCBB7D06DF6E6A1A1A /* Pods-ios-objc-LUKeychainAccess-demoUITests-acknowledgements.plist */,
+				A94DF64C1486A5300B3C50A72B366677 /* Pods-ios-objc-LUKeychainAccess-demoUITests-dummy.m */,
+				950683F0B9990B1E8F1D873571EC6728 /* Pods-ios-objc-LUKeychainAccess-demoUITests-frameworks.sh */,
+				09828F6A6FF56A07D6A311C2AC940076 /* Pods-ios-objc-LUKeychainAccess-demoUITests-resources.sh */,
+				119C77459CED5090250AA65D59042000 /* Pods-ios-objc-LUKeychainAccess-demoUITests.debug.xcconfig */,
+				8DB90D365219A226EF305285896C0D57 /* Pods-ios-objc-LUKeychainAccess-demoUITests.release.xcconfig */,
+			);
+			name = "Pods-ios-objc-LUKeychainAccess-demoUITests";
+			path = "Target Support Files/Pods-ios-objc-LUKeychainAccess-demoUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24CDC317465437A4B11342DB7C5BB9C0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B800C154A4583F57B33B14457185C92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC33FDA491FCC1A8B978FC49D9CDA9 /* LUKeychainAccess.h in Headers */,
+				002CF431663DF892C44828B6A9E24C0E /* LUKeychainAccessAccessibility.h in Headers */,
+				42A1B6FDA9AB4DA9FF4085856FD65C9E /* LUKeychainErrorHandler.h in Headers */,
+				12A0BD707FFE721FDE5097480EB1FD5E /* LUKeychainServices.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9AA168CBF407DD350C0ACED6F13A27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A885F9236BA89E90E7956E6C8296A627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65A41D6ED91B5D23D5F105E24E84A44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C25120F666BD031378C47CFB4078F63 /* Pods-ios-objc-LUKeychainAccess-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B7EF751C3DCDA5757394A192AA0008 /* Build configuration list for PBXNativeTarget "Pods-ios-objc-LUKeychainAccess-demoUITests" */;
+			buildPhases = (
+				2C9AA168CBF407DD350C0ACED6F13A27 /* Headers */,
+				7CCE4EF6440246C163F68774A80F5B13 /* Sources */,
+				7E71972BCEEDAC1CD7385D28EB43E4EF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74D68323CFA180B03C418276EE9B7D97 /* PBXTargetDependency */,
+			);
+			name = "Pods-ios-objc-LUKeychainAccess-demoUITests";
+			productName = "Pods-ios-objc-LUKeychainAccess-demoUITests";
+			productReference = 30F4CF18E7739CAF3765F3267C51C5ED /* libPods-ios-objc-LUKeychainAccess-demoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7AE61F06C97916B79F1DB7B35F3FC7CA /* Pods-ios-objc-LUKeychainAccess-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF7FF14A21FBB2627F051C12C1ADC09 /* Build configuration list for PBXNativeTarget "Pods-ios-objc-LUKeychainAccess-demoTests" */;
+			buildPhases = (
+				A885F9236BA89E90E7956E6C8296A627 /* Headers */,
+				CBD95F50748267144CF457C2AA356049 /* Sources */,
+				F7B7A6B444B42D46DE34F0AD6F9DDF36 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D4DCF1ABE0E7DF4961AB45CFD12031 /* PBXTargetDependency */,
+			);
+			name = "Pods-ios-objc-LUKeychainAccess-demoTests";
+			productName = "Pods-ios-objc-LUKeychainAccess-demoTests";
+			productReference = 9D48268F722533846F396845EE6DA473 /* libPods-ios-objc-LUKeychainAccess-demoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C4655F8AAF865BDFEE50BB8B05AD5A6C /* Pods-ios-objc-LUKeychainAccess-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E682E679E386E08BED29F515D5F44B48 /* Build configuration list for PBXNativeTarget "Pods-ios-objc-LUKeychainAccess-demo" */;
+			buildPhases = (
+				F65A41D6ED91B5D23D5F105E24E84A44 /* Headers */,
+				C52F04772ABA604302DAAC9A8F6A0A7D /* Sources */,
+				4DD4CB6CDD5349CD704402399980BC7E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27876DF6150ACCB405BE7A6AB3557ABE /* PBXTargetDependency */,
+			);
+			name = "Pods-ios-objc-LUKeychainAccess-demo";
+			productName = "Pods-ios-objc-LUKeychainAccess-demo";
+			productReference = 64B3828316342DBAE68D0CBCF9C2BA38 /* libPods-ios-objc-LUKeychainAccess-demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCED52D2277D31DA32364EF8513B831C /* LUKeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9739830DFE296CAA916576963EEB78E /* Build configuration list for PBXNativeTarget "LUKeychainAccess" */;
+			buildPhases = (
+				1B800C154A4583F57B33B14457185C92 /* Headers */,
+				0A05F86C24104A0671ECC99091E32125 /* Sources */,
+				12AA8A80C9540B13161EEE2ACA9BF57F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUKeychainAccess;
+			productName = LUKeychainAccess;
+			productReference = 43773B8BA49130AC329D5B003A157F55 /* libLUKeychainAccess.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3128F268B642841987FE8F2F88AE715D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCED52D2277D31DA32364EF8513B831C /* LUKeychainAccess */,
+				C4655F8AAF865BDFEE50BB8B05AD5A6C /* Pods-ios-objc-LUKeychainAccess-demo */,
+				7AE61F06C97916B79F1DB7B35F3FC7CA /* Pods-ios-objc-LUKeychainAccess-demoTests */,
+				0C25120F666BD031378C47CFB4078F63 /* Pods-ios-objc-LUKeychainAccess-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A05F86C24104A0671ECC99091E32125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88455D7BB46807391238D1883FC1CB20 /* LUKeychainAccess-dummy.m in Sources */,
+				C5887A35306307A7E26D45C10CAFE7A5 /* LUKeychainAccess.m in Sources */,
+				BA1316A9297E9D7415A24596C8B1F6F7 /* LUKeychainServices.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCE4EF6440246C163F68774A80F5B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4171C5B6B032F2ABF95F74E9287F4B99 /* Pods-ios-objc-LUKeychainAccess-demoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52F04772ABA604302DAAC9A8F6A0A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE775F508E7C80BAB335E2A988E07B44 /* Pods-ios-objc-LUKeychainAccess-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD95F50748267144CF457C2AA356049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF4CC102C8C19A3064452B098D47D3C /* Pods-ios-objc-LUKeychainAccess-demoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27876DF6150ACCB405BE7A6AB3557ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LUKeychainAccess;
+			target = DCED52D2277D31DA32364EF8513B831C /* LUKeychainAccess */;
+			targetProxy = C8CC8BF52D77AB4A72A53C16E78764D0 /* PBXContainerItemProxy */;
+		};
+		74D68323CFA180B03C418276EE9B7D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ios-objc-LUKeychainAccess-demo";
+			target = C4655F8AAF865BDFEE50BB8B05AD5A6C /* Pods-ios-objc-LUKeychainAccess-demo */;
+			targetProxy = 9344DDAC64518C90D0EEFD64BA54EA0F /* PBXContainerItemProxy */;
+		};
+		86D4DCF1ABE0E7DF4961AB45CFD12031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ios-objc-LUKeychainAccess-demo";
+			target = C4655F8AAF865BDFEE50BB8B05AD5A6C /* Pods-ios-objc-LUKeychainAccess-demo */;
+			targetProxy = 493C42773E9AC0E9E35B14ECFC3546BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22FA92140067705DD9DEC17D491CE556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F3DAABB3F85336E3706F888ECB00E2 /* Pods-ios-objc-LUKeychainAccess-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DDA3660ACE1B1547F2A95050CA5EF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2D0F5FB16739C612D55EB99771AD14 /* Pods-ios-objc-LUKeychainAccess-demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ABBC294BBA2025FDB68C6616FDEECA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40CEDAF6555058F115F342019372629D /* Pods-ios-objc-LUKeychainAccess-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		64C60D6092C47E78608DFDF542CE25A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F039185708F57B293ACDE4BCDBCEDA7C /* LUKeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LUKeychainAccess/LUKeychainAccess-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LUKeychainAccess;
+				PRODUCT_NAME = LUKeychainAccess;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		722793390E4FF4314F98D2D4C5C42E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB90D365219A226EF305285896C0D57 /* Pods-ios-objc-LUKeychainAccess-demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A1A2194268942B4426DD100342A94ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119C77459CED5090250AA65D59042000 /* Pods-ios-objc-LUKeychainAccess-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC2C58D2A3952D0E188800F8D75A8596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F039185708F57B293ACDE4BCDBCEDA7C /* LUKeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LUKeychainAccess/LUKeychainAccess-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LUKeychainAccess;
+				PRODUCT_NAME = LUKeychainAccess;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDAF0AE4A999FCD067B54F3B8E29DE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196B8EB73954F2DFFC30C0FB53D72FFE /* Pods-ios-objc-LUKeychainAccess-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9739830DFE296CAA916576963EEB78E /* Build configuration list for PBXNativeTarget "LUKeychainAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2C58D2A3952D0E188800F8D75A8596 /* Debug */,
+				64C60D6092C47E78608DFDF542CE25A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF7FF14A21FBB2627F051C12C1ADC09 /* Build configuration list for PBXNativeTarget "Pods-ios-objc-LUKeychainAccess-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABBC294BBA2025FDB68C6616FDEECA0 /* Debug */,
+				22FA92140067705DD9DEC17D491CE556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B7EF751C3DCDA5757394A192AA0008 /* Build configuration list for PBXNativeTarget "Pods-ios-objc-LUKeychainAccess-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A2194268942B4426DD100342A94ADA /* Debug */,
+				722793390E4FF4314F98D2D4C5C42E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E682E679E386E08BED29F515D5F44B48 /* Build configuration list for PBXNativeTarget "Pods-ios-objc-LUKeychainAccess-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDA3660ACE1B1547F2A95050CA5EF18 /* Debug */,
+				EDAF0AE4A999FCD067B54F3B8E29DE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

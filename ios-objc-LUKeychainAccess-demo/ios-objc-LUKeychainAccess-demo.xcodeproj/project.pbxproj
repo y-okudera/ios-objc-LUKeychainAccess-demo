@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C59AC8BA3E0BDAE71C9910 /* libPods-ios-objc-LUKeychainAccess-demoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF89ED00614091D635489C4B /* libPods-ios-objc-LUKeychainAccess-demoTests.a */; };
+		46A6B483BADB86DB5536735A /* libPods-ios-objc-LUKeychainAccess-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4A74C72AF702188CA1466 /* libPods-ios-objc-LUKeychainAccess-demo.a */; };
+		546214D0CEF2CCEEB52A4CB8 /* libPods-ios-objc-LUKeychainAccess-demoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F150D7697AE92B72B350F919 /* libPods-ios-objc-LUKeychainAccess-demoUITests.a */; };
+		B6541BA8217E223F00BDF4FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6541BA7217E223F00BDF4FF /* AppDelegate.m */; };
+		B6541BAB217E223F00BDF4FF /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6541BAA217E223F00BDF4FF /* TopViewController.m */; };
+		B6541BAE217E223F00BDF4FF /* TopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6541BAC217E223F00BDF4FF /* TopViewController.storyboard */; };
+		B6541BB0217E224000BDF4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6541BAF217E224000BDF4FF /* Assets.xcassets */; };
+		B6541BB3217E224000BDF4FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6541BB1217E224000BDF4FF /* LaunchScreen.storyboard */; };
+		B6541BB6217E224000BDF4FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6541BB5217E224000BDF4FF /* main.m */; };
+		B6541BC0217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6541BBF217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoTests.m */; };
+		B6541BCB217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6541BCA217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6541BBC217E224000BDF4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6541B9B217E223F00BDF4FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6541BA2217E223F00BDF4FF;
+			remoteInfo = "ios-objc-LUKeychainAccess-demo";
+		};
+		B6541BC7217E224000BDF4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6541B9B217E223F00BDF4FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6541BA2217E223F00BDF4FF;
+			remoteInfo = "ios-objc-LUKeychainAccess-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F302DF8AE4A6689C81154B /* Pods-ios-objc-LUKeychainAccess-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-objc-LUKeychainAccess-demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-objc-LUKeychainAccess-demoUITests/Pods-ios-objc-LUKeychainAccess-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26381CE86F7D1FDBF22DFEA1 /* Pods-ios-objc-LUKeychainAccess-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-objc-LUKeychainAccess-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-objc-LUKeychainAccess-demoTests/Pods-ios-objc-LUKeychainAccess-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A641EEAF2C5BE00B5FF19DF2 /* Pods-ios-objc-LUKeychainAccess-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-objc-LUKeychainAccess-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-objc-LUKeychainAccess-demo/Pods-ios-objc-LUKeychainAccess-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		AEC31B5C45C8FAE05F3903BA /* Pods-ios-objc-LUKeychainAccess-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-objc-LUKeychainAccess-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-objc-LUKeychainAccess-demoTests/Pods-ios-objc-LUKeychainAccess-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6541BA3217E223F00BDF4FF /* ios-objc-LUKeychainAccess-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-objc-LUKeychainAccess-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6541BA6217E223F00BDF4FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6541BA7217E223F00BDF4FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6541BA9217E223F00BDF4FF /* TopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		B6541BAA217E223F00BDF4FF /* TopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		B6541BAD217E223F00BDF4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TopViewController.storyboard; sourceTree = "<group>"; };
+		B6541BAF217E224000BDF4FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6541BB2217E224000BDF4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6541BB4217E224000BDF4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6541BB5217E224000BDF4FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6541BBB217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-objc-LUKeychainAccess-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6541BBF217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_objc_LUKeychainAccess_demoTests.m; sourceTree = "<group>"; };
+		B6541BC1217E224000BDF4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6541BC6217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-objc-LUKeychainAccess-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6541BCA217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_objc_LUKeychainAccess_demoUITests.m; sourceTree = "<group>"; };
+		B6541BCC217E224000BDF4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF89ED00614091D635489C4B /* libPods-ios-objc-LUKeychainAccess-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-objc-LUKeychainAccess-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF4A74C72AF702188CA1466 /* libPods-ios-objc-LUKeychainAccess-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-objc-LUKeychainAccess-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F150D7697AE92B72B350F919 /* libPods-ios-objc-LUKeychainAccess-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-objc-LUKeychainAccess-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F489C033934A455B0567CD0F /* Pods-ios-objc-LUKeychainAccess-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-objc-LUKeychainAccess-demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-objc-LUKeychainAccess-demoUITests/Pods-ios-objc-LUKeychainAccess-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F708EEB131990D853844E35E /* Pods-ios-objc-LUKeychainAccess-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-objc-LUKeychainAccess-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-objc-LUKeychainAccess-demo/Pods-ios-objc-LUKeychainAccess-demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6541BA0217E223F00BDF4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A6B483BADB86DB5536735A /* libPods-ios-objc-LUKeychainAccess-demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6541BB8217E224000BDF4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C59AC8BA3E0BDAE71C9910 /* libPods-ios-objc-LUKeychainAccess-demoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6541BC3217E224000BDF4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546214D0CEF2CCEEB52A4CB8 /* libPods-ios-objc-LUKeychainAccess-demoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B55DE0579015434CD6795F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A641EEAF2C5BE00B5FF19DF2 /* Pods-ios-objc-LUKeychainAccess-demo.debug.xcconfig */,
+				F708EEB131990D853844E35E /* Pods-ios-objc-LUKeychainAccess-demo.release.xcconfig */,
+				26381CE86F7D1FDBF22DFEA1 /* Pods-ios-objc-LUKeychainAccess-demoTests.debug.xcconfig */,
+				AEC31B5C45C8FAE05F3903BA /* Pods-ios-objc-LUKeychainAccess-demoTests.release.xcconfig */,
+				F489C033934A455B0567CD0F /* Pods-ios-objc-LUKeychainAccess-demoUITests.debug.xcconfig */,
+				09F302DF8AE4A6689C81154B /* Pods-ios-objc-LUKeychainAccess-demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6541B9A217E223F00BDF4FF = {
+			isa = PBXGroup;
+			children = (
+				B6541BA5217E223F00BDF4FF /* ios-objc-LUKeychainAccess-demo */,
+				B6541BBE217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoTests */,
+				B6541BC9217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoUITests */,
+				B6541BA4217E223F00BDF4FF /* Products */,
+				A7B55DE0579015434CD6795F /* Pods */,
+				B8E275F36FDA59986B0C2CFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6541BA4217E223F00BDF4FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6541BA3217E223F00BDF4FF /* ios-objc-LUKeychainAccess-demo.app */,
+				B6541BBB217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoTests.xctest */,
+				B6541BC6217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6541BA5217E223F00BDF4FF /* ios-objc-LUKeychainAccess-demo */ = {
+			isa = PBXGroup;
+			children = (
+				B6887B25217E356A004F9F04 /* Others */,
+				B6887B24217E3565004F9F04 /* ViewControllers */,
+				B6887B23217E3561004F9F04 /* Views */,
+				B6887B22217E355A004F9F04 /* Models */,
+			);
+			path = "ios-objc-LUKeychainAccess-demo";
+			sourceTree = "<group>";
+		};
+		B6541BBE217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6541BBF217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoTests.m */,
+				B6541BC1217E224000BDF4FF /* Info.plist */,
+			);
+			path = "ios-objc-LUKeychainAccess-demoTests";
+			sourceTree = "<group>";
+		};
+		B6541BC9217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6541BCA217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoUITests.m */,
+				B6541BCC217E224000BDF4FF /* Info.plist */,
+			);
+			path = "ios-objc-LUKeychainAccess-demoUITests";
+			sourceTree = "<group>";
+		};
+		B6887B22217E355A004F9F04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6887B23217E3561004F9F04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6887B24217E3565004F9F04 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6887B26217E35B3004F9F04 /* LaunchScreen */,
+				B6887B27217E35BB004F9F04 /* Top */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6887B25217E356A004F9F04 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B6541BA6217E223F00BDF4FF /* AppDelegate.h */,
+				B6541BA7217E223F00BDF4FF /* AppDelegate.m */,
+				B6541BAF217E224000BDF4FF /* Assets.xcassets */,
+				B6541BB4217E224000BDF4FF /* Info.plist */,
+				B6541BB5217E224000BDF4FF /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		B6887B26217E35B3004F9F04 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B6541BB1217E224000BDF4FF /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		B6887B27217E35BB004F9F04 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				B6541BA9217E223F00BDF4FF /* TopViewController.h */,
+				B6541BAA217E223F00BDF4FF /* TopViewController.m */,
+				B6541BAC217E223F00BDF4FF /* TopViewController.storyboard */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		B8E275F36FDA59986B0C2CFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF4A74C72AF702188CA1466 /* libPods-ios-objc-LUKeychainAccess-demo.a */,
+				CF89ED00614091D635489C4B /* libPods-ios-objc-LUKeychainAccess-demoTests.a */,
+				F150D7697AE92B72B350F919 /* libPods-ios-objc-LUKeychainAccess-demoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6541BA2217E223F00BDF4FF /* ios-objc-LUKeychainAccess-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6541BCF217E224000BDF4FF /* Build configuration list for PBXNativeTarget "ios-objc-LUKeychainAccess-demo" */;
+			buildPhases = (
+				A1749D0B14FF7FF63A63BE73 /* [CP] Check Pods Manifest.lock */,
+				B6541B9F217E223F00BDF4FF /* Sources */,
+				B6541BA0217E223F00BDF4FF /* Frameworks */,
+				B6541BA1217E223F00BDF4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-objc-LUKeychainAccess-demo";
+			productName = "ios-objc-LUKeychainAccess-demo";
+			productReference = B6541BA3217E223F00BDF4FF /* ios-objc-LUKeychainAccess-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6541BBA217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6541BD2217E224000BDF4FF /* Build configuration list for PBXNativeTarget "ios-objc-LUKeychainAccess-demoTests" */;
+			buildPhases = (
+				F5D18825AD4BCDACD223A1C7 /* [CP] Check Pods Manifest.lock */,
+				B6541BB7217E224000BDF4FF /* Sources */,
+				B6541BB8217E224000BDF4FF /* Frameworks */,
+				B6541BB9217E224000BDF4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6541BBD217E224000BDF4FF /* PBXTargetDependency */,
+			);
+			name = "ios-objc-LUKeychainAccess-demoTests";
+			productName = "ios-objc-LUKeychainAccess-demoTests";
+			productReference = B6541BBB217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6541BC5217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6541BD5217E224000BDF4FF /* Build configuration list for PBXNativeTarget "ios-objc-LUKeychainAccess-demoUITests" */;
+			buildPhases = (
+				8363142C87F049CEE821FFFB /* [CP] Check Pods Manifest.lock */,
+				B6541BC2217E224000BDF4FF /* Sources */,
+				B6541BC3217E224000BDF4FF /* Frameworks */,
+				B6541BC4217E224000BDF4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6541BC8217E224000BDF4FF /* PBXTargetDependency */,
+			);
+			name = "ios-objc-LUKeychainAccess-demoUITests";
+			productName = "ios-objc-LUKeychainAccess-demoUITests";
+			productReference = B6541BC6217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6541B9B217E223F00BDF4FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = YukiOkudera;
+				TargetAttributes = {
+					B6541BA2217E223F00BDF4FF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B6541BBA217E224000BDF4FF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B6541BA2217E223F00BDF4FF;
+					};
+					B6541BC5217E224000BDF4FF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B6541BA2217E223F00BDF4FF;
+					};
+				};
+			};
+			buildConfigurationList = B6541B9E217E223F00BDF4FF /* Build configuration list for PBXProject "ios-objc-LUKeychainAccess-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6541B9A217E223F00BDF4FF;
+			productRefGroup = B6541BA4217E223F00BDF4FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6541BA2217E223F00BDF4FF /* ios-objc-LUKeychainAccess-demo */,
+				B6541BBA217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoTests */,
+				B6541BC5217E224000BDF4FF /* ios-objc-LUKeychainAccess-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6541BA1217E223F00BDF4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6541BB3217E224000BDF4FF /* LaunchScreen.storyboard in Resources */,
+				B6541BB0217E224000BDF4FF /* Assets.xcassets in Resources */,
+				B6541BAE217E223F00BDF4FF /* TopViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6541BB9217E224000BDF4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6541BC4217E224000BDF4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8363142C87F049CEE821FFFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-objc-LUKeychainAccess-demoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1749D0B14FF7FF63A63BE73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-objc-LUKeychainAccess-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D18825AD4BCDACD223A1C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-objc-LUKeychainAccess-demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6541B9F217E223F00BDF4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6541BAB217E223F00BDF4FF /* TopViewController.m in Sources */,
+				B6541BB6217E224000BDF4FF /* main.m in Sources */,
+				B6541BA8217E223F00BDF4FF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6541BB7217E224000BDF4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6541BC0217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6541BC2217E224000BDF4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6541BCB217E224000BDF4FF /* ios_objc_LUKeychainAccess_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6541BBD217E224000BDF4FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6541BA2217E223F00BDF4FF /* ios-objc-LUKeychainAccess-demo */;
+			targetProxy = B6541BBC217E224000BDF4FF /* PBXContainerItemProxy */;
+		};
+		B6541BC8217E224000BDF4FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6541BA2217E223F00BDF4FF /* ios-objc-LUKeychainAccess-demo */;
+			targetProxy = B6541BC7217E224000BDF4FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6541BAC217E223F00BDF4FF /* TopViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6541BAD217E223F00BDF4FF /* Base */,
+			);
+			name = TopViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		B6541BB1217E224000BDF4FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6541BB2217E224000BDF4FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6541BCD217E224000BDF4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6541BCE217E224000BDF4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6541BD0217E224000BDF4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A641EEAF2C5BE00B5FF19DF2 /* Pods-ios-objc-LUKeychainAccess-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "$(SRCROOT)/ios-objc-LUKeychainAccess-demo/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-objc-LUKeychainAccess-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6541BD1217E224000BDF4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F708EEB131990D853844E35E /* Pods-ios-objc-LUKeychainAccess-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "$(SRCROOT)/ios-objc-LUKeychainAccess-demo/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-objc-LUKeychainAccess-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6541BD3217E224000BDF4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26381CE86F7D1FDBF22DFEA1 /* Pods-ios-objc-LUKeychainAccess-demoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-objc-LUKeychainAccess-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-objc-LUKeychainAccess-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-objc-LUKeychainAccess-demo.app/ios-objc-LUKeychainAccess-demo";
+			};
+			name = Debug;
+		};
+		B6541BD4217E224000BDF4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC31B5C45C8FAE05F3903BA /* Pods-ios-objc-LUKeychainAccess-demoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-objc-LUKeychainAccess-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-objc-LUKeychainAccess-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-objc-LUKeychainAccess-demo.app/ios-objc-LUKeychainAccess-demo";
+			};
+			name = Release;
+		};
+		B6541BD6217E224000BDF4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F489C033934A455B0567CD0F /* Pods-ios-objc-LUKeychainAccess-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-objc-LUKeychainAccess-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-objc-LUKeychainAccess-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-objc-LUKeychainAccess-demo";
+			};
+			name = Debug;
+		};
+		B6541BD7217E224000BDF4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F302DF8AE4A6689C81154B /* Pods-ios-objc-LUKeychainAccess-demoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-objc-LUKeychainAccess-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-objc-LUKeychainAccess-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-objc-LUKeychainAccess-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6541B9E217E223F00BDF4FF /* Build configuration list for PBXProject "ios-objc-LUKeychainAccess-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6541BCD217E224000BDF4FF /* Debug */,
+				B6541BCE217E224000BDF4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6541BCF217E224000BDF4FF /* Build configuration list for PBXNativeTarget "ios-objc-LUKeychainAccess-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6541BD0217E224000BDF4FF /* Debug */,
+				B6541BD1217E224000BDF4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6541BD2217E224000BDF4FF /* Build configuration list for PBXNativeTarget "ios-objc-LUKeychainAccess-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6541BD3217E224000BDF4FF /* Debug */,
+				B6541BD4217E224000BDF4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6541BD5217E224000BDF4FF /* Build configuration list for PBXNativeTarget "ios-objc-LUKeychainAccess-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6541BD6217E224000BDF4FF /* Debug */,
+				B6541BD7217E224000BDF4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6541B9B217E223F00BDF4FF /* Project object */;
+}
